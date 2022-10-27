@@ -8,7 +8,9 @@ This solution is based on the example in https://geekyhumans.com/receive-github-
 This solution uses 
  - python (easy for customers to read, and fast to update and test), 
  - Flask, an environment to quickly set up http localhost servers, and 
-  - ngrok, to externalize localhost to the internet  
+ - ngrok, to externalize localhost to the internet  
+
+To give better control of firewall settings, I use a cloud compute instance running LINUX. During the demo I use two terminal windows that are SSH'ed in. 
 
 Setup: 
 (Set up basic python environment using yum, and flask using home-brew)

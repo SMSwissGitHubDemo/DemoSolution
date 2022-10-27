@@ -25,8 +25,10 @@ with a few errata:
   - ngrok authtoken {token from ngrok website when you registered) For Linux, I used a slightly different command than the ngrok website: 
      ngrok authtoken {token from ngrok website}   
 
+Clone this repository, and update the webhooks_test.py file to use your own organization, GithHub auth token and ngrok auth token. 
+
 Start server with python3 command, then put it in the background (append & or hit ctrl-z then bg)
-	python3 {name of web hook .py file|
+	python3 webhooks_test.py
 	(CTRL-Z)
 	bg
 
